@@ -1,4 +1,4 @@
-# RCCL-install and RCCL Test
+# AMD RCCL-install and RCCL Test
 
 please use root to install rccl
 
