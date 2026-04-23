@@ -51,4 +51,4 @@ echo "GRUB configuration updated successfully."
 git clone https://github.com/ROCm/rccl-tests.git
 cd rccl-tests
 make MPI=0 HIP_PATH=/opt/rocm
-./build/all_reduce_perf -b 8 -e 10g -f 2 -g 4
+./build/all_reduce_perf -b 8 -e 1g -f 2 -g 4
