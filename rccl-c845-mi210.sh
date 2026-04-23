@@ -23,7 +23,9 @@ source ~/.bashrc
 
 ls /opt/rocm/lib | grep rccl
 
-
+#sudo nano /etc/default/grub
+#GRUB_CMDLINE_LINUX_DEFAULT="quiet splash iommu=pt"
+#sudo update-grub
 
 # Define the file path
 GRUB_FILE="/etc/default/grub"
